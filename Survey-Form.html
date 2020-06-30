@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" type = "text/css" href = "Survey-Form.css">
+    </head>
+   <div id = "page-wrapper">
+    <header id = "header">
+        <div id = "img-div">
+            <img id = "header-img" src = "https://cdn5.vectorstock.com/i/1000x1000/97/19/electric-guitar-with-wings-sketch-engraving-vector-25139719.jpg" alt = "guitar-sketch-logo">
+        </div>    
+    </div>
+    <h1 id = "title">
+        We Want to Hear Your Thoughts!
+      </h1>
+    
+      <p id = "description">
+        We appreciate your feedback.
+      </p>   
+    </header>
+
+    <body id = "body">
+        <form id = "survey-form">
+    
+            <label id = "name-label">First Name:         </label>
+            <br>
+            <input id = "name" type = "text" placeholder = "Joe" required>
+            
+            <br>
+            
+            <label id = "email-label">Email:</label>
+            <br>
+            <input id = "email" type = "email" placeholder = "abc@email.com" required>  
+            
+            <br>
+            
+            <label id = "number-label">Age:</label>
+            <br>
+            <input id = "number" type = "number" min = "18" max = "60" placeholder = "21" required>
+            
+            <br>
+            
+            <label id = "dropdown-label">What is your favorite feature on our site?</label>
+            <br>
+            <select id = "dropdown">
+              <option id = "blank" selected disabled hidden style = "display: none" value = ""></option>
+              <option value = "Video content">Video Content</option>
+              <option value = "Downloadable PDFs">Free downloadable PDFs</option>
+              <option value = "Correspond with experts">Ability to correspond with expert instructors</option>
+            </select>
+            
+            <br>
+            
+            <label id = "rb-label">Would you recommend us to a friend?</label>
+            
+            <br>
+            
+            <input id = "radiob1" name = "user-recommendation" type = "radio" value = "Yes">
+            <label class = "radiob-label">Yes</label>
+            
+            <br>
+            
+            <input id = "radiob2" name = "user-recommendation" type = "radio" value = "Maybe">
+            <label class = "radiob-label">Maybe</label>
+            
+            <br>
+            
+            <input id = "radiob3" name = "user-recommendation" type = "radio" value = "No">
+            <label class = "radiob-label">No</label>
+            
+            <br>
+            
+            <label id = "checkbox-label">What can we improve upon?</label>
+            
+            <br>
+            
+            <input id = "check1" type = "checkbox" value = "ux">
+            <label class = "checkbox-label">User Experience</label>
+            
+            <br>
+            
+            <input id = "check2" type = "checkbox" value = "content">
+            <label class = "checkbox-label">Content</label>
+            
+            <br>
+            
+            <label id = "comments-label">Comments: (Optional)</label>
+            <br>
+            <textarea id = "comments"></textarea>
+            
+            <br>
+            
+            <input id = "submit" type = "submit">
+          </form>
+    </body>
+
+    <footer id = "footer">&copy; Guitar&BassAcad 2020</footer>
+
+   </div> 
+</html>
